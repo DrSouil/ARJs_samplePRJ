@@ -26,7 +26,17 @@
 
 	<a-assets>
 
-		<audio id="song" src="resources/DigDug.mp3"></audio>
+		<audio id="bb8-sound" src="resources/sound/bb8-09.mp3"></audio>
+    <audio id="cat-sound" src="resources/sound/Cat.wav"></audio>
+    <audio id="chicken-sound" src="resources/sound/Chicken.wav"></audio>
+    <audio id="crocodile-sound" src="resources/sound/Crocodile.wav"></audio>
+    <audio id="fountain-sound" src="resources/sound/Fountain.wav"></audio>
+    <audio id="godzilla-sound" src="resources/sound/Godzilla.wav"></audio>
+    <audio id="hand-sound" src="resources/sound/Hand.wav"></audio>
+    <audio id="rocket-sound" src="resources/sound/Rocket.wav"></audio>
+    <audio id="saxophone-sound" src="resources/sound/Saxophone.mp3"></audio>
+    <audio id="tree-sound" src="resources/sound/Tree.wav"></audio>
+
 
 		<a-asset-item id="godzilla" src="resources/fbxAnimation/godzillaforunity.gltf" position="0 0 0" scale="1 1 1"></a-asset-item>
     <a-asset-item id="bb8" src="resources/fbxAnimation/BB8forUnity.gltf" position="0 0 0" scale="1 1 1"></a-asset-item>
@@ -42,7 +52,7 @@
   <a-marker registerevents type='pattern' url='resources/markers/pattern-Tree.patt' id='1'>
 
     <a-gltf-model src="#bb8" position="0 0 0" rotation="0 90 0" scale='1 1 1' animation-mixer>
-      <a-entity id="thesound" position="0 2 3" sound="src:#song; positional:true; loop:true" ></a-entity>
+      <a-entity  position="0 2 3" sound="src:#tree-sound; positional:true; loop:true" ></a-entity>
     </a-gltf-model>
 
 
