@@ -1,0 +1,521 @@
+{
+    "asset": {
+        "generator": "FBX2glTF",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "buffers": [
+        {
+            "byteLength": 59492,
+            "uri": "palm_new.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 292,
+            "byteOffset": 0
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1168,
+            "byteOffset": 292
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1168,
+            "byteOffset": 1460
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1168,
+            "byteOffset": 2628
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1168,
+            "byteOffset": 3796
+        },
+        {
+            "buffer": 0,
+            "byteLength": 6144,
+            "byteOffset": 4964,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 10272,
+            "byteOffset": 11108,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 10272,
+            "byteOffset": 21380,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 6848,
+            "byteOffset": 31652,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 6848,
+            "byteOffset": 38500,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 13696,
+            "byteOffset": 45348,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 448,
+            "byteOffset": 59044
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5126,
+            "type": "SCALAR",
+            "count": 73,
+            "bufferView": 0,
+            "byteOffset": 0,
+            "min": [
+                0.0
+            ],
+            "max": [
+                3.0
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 73,
+            "bufferView": 1,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 73,
+            "bufferView": 2,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 73,
+            "bufferView": 3,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 73,
+            "bufferView": 4,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 3072,
+            "bufferView": 5,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 856,
+            "bufferView": 6,
+            "byteOffset": 0,
+            "min": [
+                -0.0188615936785936,
+                -0.00172979070339352,
+                -0.110456258058548
+            ],
+            "max": [
+                0.186296552419662,
+                0.440293937921524,
+                0.110456258058548
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 856,
+            "bufferView": 7,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 856,
+            "bufferView": 8,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "VEC4",
+            "count": 856,
+            "bufferView": 9,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC4",
+            "count": 856,
+            "bufferView": 10,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "MAT4",
+            "count": 7,
+            "bufferView": 11,
+            "byteOffset": 0
+        }
+    ],
+    "images": [
+        {
+            "name": "palm leafs",
+            "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "textures": [
+        {
+            "name": "palm leafs",
+            "sampler": 0,
+            "source": 0
+        }
+    ],
+    "materials": [
+        {
+            "name": "Default",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Lambert",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0,
+                    "texCoord": 0
+                },
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.200000002980232,
+                "roughnessFactor": 0.800000011920929
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Tree",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "JOINTS_0": 9,
+                        "NORMAL": 7,
+                        "POSITION": 6,
+                        "TEXCOORD_0": 8,
+                        "WEIGHTS_0": 10
+                    },
+                    "indices": 5
+                }
+            ]
+        }
+    ],
+    "skins": [
+        {
+            "joints": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "inverseBindMatrices": 11,
+            "skeleton": 2
+        }
+    ],
+    "animations": [
+        {
+            "name": "CINEMA_4D_Main",
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 4,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 1,
+                    "target": {
+                        "node": 5,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 2,
+                    "target": {
+                        "node": 6,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 3,
+                    "target": {
+                        "node": 7,
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "samplers": [
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 1
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 2
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 3
+                },
+                {
+                    "input": 0,
+                    "interpolation": "LINEAR",
+                    "output": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1,
+                2
+            ]
+        },
+        {
+            "name": "Tree",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 0,
+            "skin": 0
+        },
+        {
+            "name": "Root",
+            "translation": [
+                0.00134054047521204,
+                0.0,
+                -0.0189958978444338
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                3
+            ]
+        },
+        {
+            "name": "Joint",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.628066301345825,
+                -0.196925386786461,
+                0.186833381652832,
+                0.729278028011322
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                4
+            ]
+        },
+        {
+            "name": "Joint_1",
+            "translation": [
+                0.00257690576836467,
+                0.00711837178096175,
+                -0.0992820635437965
+            ],
+            "rotation": [
+                -0.0280317906290293,
+                -0.182813733816147,
+                -0.0174672305583954,
+                0.982592642307281
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                5
+            ]
+        },
+        {
+            "name": "Joint_2",
+            "translation": [
+                -6.21724896437066e-17,
+                -1.17683634257519e-16,
+                -0.0461419671773911
+            ],
+            "rotation": [
+                -0.0383188836276531,
+                -0.162278547883034,
+                -0.00630674976855516,
+                0.98598051071167
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                6
+            ]
+        },
+        {
+            "name": "Joint_3",
+            "translation": [
+                0.000166549201821908,
+                0.00502097699791193,
+                -0.043603777885437
+            ],
+            "rotation": [
+                -0.00288752233609557,
+                0.222681388258934,
+                0.0265132132917643,
+                0.974526405334473
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                7
+            ]
+        },
+        {
+            "name": "Joint_4",
+            "translation": [
+                0.00634111138060689,
+                0.0108688902109861,
+                -0.0399771183729172
+            ],
+            "rotation": [
+                0.00528258085250854,
+                0.0029563307762146,
+                0.0217562429606915,
+                0.999744951725006
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                8
+            ]
+        },
+        {
+            "name": "Joint_5",
+            "translation": [
+                0.00132501556072384,
+                0.0214498974382877,
+                -0.112235575914383
+            ],
+            "rotation": [
+                0.094270646572113,
+                -0.00587623659521341,
+                0.000556444458197802,
+                0.995529115200043
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ]
+}
