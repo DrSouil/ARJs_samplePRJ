@@ -45,7 +45,9 @@
     <a-asset-item id="chicken" src="resources/fbxAnimation/chicken NEW.gltf" position="0 0 0" scale="1 1 1"></a-asset-item>
     <a-asset-item id="crocodilehead" src="resources/fbxAnimation/crocodilehead _new.gltf" position="0 0 0" scale="1 1 1"></a-asset-item>
     <a-asset-item id="football" src="resources/fbxAnimation/football.gltf" position="0 0 0" scale="1 1 1"></a-asset-item>
-    <a-asset-item id="saxophone" src="resources/fbxAnimation/Saxophone-new.gltf" position="0 0 0" scale="1 1 1"></a-asset-item>
+    <a-asset-item id="saxophone" src="resources/fbxAnimation/Saxophone-new1.gltf" position="0 0 0" scale="1 1 1"></a-asset-item>
+    <a-asset-item id="fountain" src="resources/fbxAnimation/fountainnew.gltf" position="0 0 0" scale="1 1 1"></a-asset-item>
+
 
 
     <!-- <a-asset-item id="rocket" src="resources/fbxAnimation/retro_rocket.gltf" position="0 0 0" scale="1 1 1"></a-asset-item> -->
@@ -92,6 +94,10 @@
 
   </a-marker>
   <a-marker registerevents type='pattern' url='resources/markers/pattern-Fountain.patt' id='6'>
+    <a-gltf-model src="#fountain" position="0 0 0" rotation="0 90 0" scale='0.2 0.2 0.2' animation-mixer>
+      <a-entity id="fountainsound" position="0 2 3" sound="src:#fountain-sound; positional:true; loop:true" ></a-entity>
+    </a-gltf-model>
+
 
 
   </a-marker>

@@ -34,7 +34,7 @@ AFRAME.registerComponent('registerevents', {
 					sceneEl.querySelector('#chickensound').components.sound.playSound();
 					break;
 					case "6":
-					// sceneEl.querySelector('#thesound').components.sound.playSound();
+					 sceneEl.querySelector('#fountainsound').components.sound.playSound();
 					break;
 					case "7":
 					sceneEl.querySelector('#godzillasound').components.sound.playSound();
@@ -81,8 +81,8 @@ AFRAME.registerComponent('registerevents', {
 				if(sceneEl.querySelector('#chickensound').components.sound.isPlaying==true){
 				sceneEl.querySelector('#chickensound').components.sound.stopSound();
 				}
-				if(sceneEl.querySelector('#treesound').components.sound.isPlaying==true){
-				sceneEl.querySelector('#treesound').components.sound.stopSound();
+				if(sceneEl.querySelector('#fountainsound').components.sound.isPlaying==true){
+				sceneEl.querySelector('#fountainsound').components.sound.stopSound();
 				}
 				if(sceneEl.querySelector('#godzillasound').components.sound.isPlaying==true){
 				sceneEl.querySelector('#godzillasound').components.sound.stopSound();
