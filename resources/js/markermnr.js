@@ -43,7 +43,7 @@ AFRAME.registerComponent('registerevents', {
 					sceneEl.querySelector('#handsound').components.sound.playSound();
 					break;
 					case "9":
-					sceneEl.querySelector('#rocketsound').components.sound.playSound();
+					sceneEl.querySelector('#footballsound').components.sound.playSound();
 					break;
 					case "10":
 					sceneEl.querySelector('#crocodilesound').components.sound.playSound();
@@ -90,8 +90,8 @@ AFRAME.registerComponent('registerevents', {
 				if(sceneEl.querySelector('#handsound').components.sound.isPlaying==true){
 				sceneEl.querySelector('#handsound').components.sound.stopSound();
 				}
-				if(sceneEl.querySelector('#rocketsound').components.sound.isPlaying==true){
-				sceneEl.querySelector('#rocketsound').components.sound.stopSound();
+				if(sceneEl.querySelector('#footballsound').components.sound.isPlaying==true){
+				sceneEl.querySelector('#footballsound').components.sound.stopSound();
 				}
 				if(sceneEl.querySelector('#crocodilesound').components.sound.isPlaying==true){
 				sceneEl.querySelector('#crocodilesound').components.sound.stopSound();
