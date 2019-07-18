@@ -7,7 +7,7 @@
     "buffers": [
         {
             "byteLength": 59492,
-            "uri": "palm_new.bin"
+            "uri": "palm_new1.bin"
         }
     ],
     "bufferViews": [
@@ -190,8 +190,8 @@
     ],
     "images": [
         {
-            "name": "palm leafs",
-            "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+            "name": "palm leafs.png",
+            "uri": "palm leafs.png"
         }
     ],
     "samplers": [
@@ -207,7 +207,7 @@
     "materials": [
         {
             "name": "Default",
-            "alphaMode": "OPAQUE",
+            "alphaMode": "BLEND",
             "extras": {
                 "fromFBX": {
                     "shadingModel": "Lambert",
